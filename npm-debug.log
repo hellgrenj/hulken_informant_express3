@@ -1,0 +1,58 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'https://github.com/hellgrenj/hulken_informant_express3.git' ]
+2 info using npm@1.4.9
+3 info using node@v0.10.28
+4 warn package.json hulken_informant_express3@0.0.1 No repository field.
+5 verbose readDependencies using package.json deps
+6 verbose cache add [ 'https://github.com/hellgrenj/hulken_informant_express3.git',
+6 verbose cache add   null ]
+7 verbose cache add name=undefined spec="https://github.com/hellgrenj/hulken_informant_express3.git" args=["https://github.com/hellgrenj/hulken_informant_express3.git",null]
+8 verbose parsed url { protocol: 'https:',
+8 verbose parsed url   slashes: true,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: 'github.com',
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: 'github.com',
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: '/hellgrenj/hulken_informant_express3.git',
+8 verbose parsed url   path: '/hellgrenj/hulken_informant_express3.git',
+8 verbose parsed url   href: 'https://github.com/hellgrenj/hulken_informant_express3.git' }
+9 silly lockFile 5748c184-nj-hulken-informant-express3-git https://github.com/hellgrenj/hulken_informant_express3.git
+10 verbose lock https://github.com/hellgrenj/hulken_informant_express3.git /Users/hellgrenj/.npm/5748c184-nj-hulken-informant-express3-git.lock
+11 verbose addRemoteTarball [ 'https://github.com/hellgrenj/hulken_informant_express3.git',
+11 verbose addRemoteTarball   null ]
+12 info retry fetch attempt 1 at 13:00:13
+13 verbose fetch to= /var/folders/6m/x4cvgf2x6qvc4fbcwhns1qhw0000gn/T/npm-1194-TgIi_5oF/1404471613063-0.20107294246554375/tmp.tgz
+14 http GET https://github.com/hellgrenj/hulken_informant_express3.git
+15 http 200 https://github.com/hellgrenj/hulken_informant_express3.git
+16 verbose tar unpack /var/folders/6m/x4cvgf2x6qvc4fbcwhns1qhw0000gn/T/npm-1194-TgIi_5oF/1404471613063-0.20107294246554375/tmp.tgz
+17 silly lockFile dde33a8a-4b4470c55tmp-2d1719f21887package tar:///Users/hellgrenj/.npm/tmp_0b74b4470c55tmp_2d1719f21887package
+18 verbose lock tar:///Users/hellgrenj/.npm/tmp_0b74b4470c55tmp_2d1719f21887package /Users/hellgrenj/.npm/dde33a8a-4b4470c55tmp-2d1719f21887package.lock
+19 silly lockFile 58ed1661-3063-0-20107294246554375-tmp-tgz tar:///var/folders/6m/x4cvgf2x6qvc4fbcwhns1qhw0000gn/T/npm-1194-TgIi_5oF/1404471613063-0.20107294246554375/tmp.tgz
+20 verbose lock tar:///var/folders/6m/x4cvgf2x6qvc4fbcwhns1qhw0000gn/T/npm-1194-TgIi_5oF/1404471613063-0.20107294246554375/tmp.tgz /Users/hellgrenj/.npm/58ed1661-3063-0-20107294246554375-tmp-tgz.lock
+21 silly gunzTarPerm modes [ '755', '644' ]
+22 error not a package /var/folders/6m/x4cvgf2x6qvc4fbcwhns1qhw0000gn/T/npm-1194-TgIi_5oF/1404471613063-0.20107294246554375/tmp.tgz
+23 silly lockFile dde33a8a-4b4470c55tmp-2d1719f21887package tar:///Users/hellgrenj/.npm/tmp_0b74b4470c55tmp_2d1719f21887package
+24 silly lockFile dde33a8a-4b4470c55tmp-2d1719f21887package tar:///Users/hellgrenj/.npm/tmp_0b74b4470c55tmp_2d1719f21887package
+25 silly lockFile 58ed1661-3063-0-20107294246554375-tmp-tgz tar:///var/folders/6m/x4cvgf2x6qvc4fbcwhns1qhw0000gn/T/npm-1194-TgIi_5oF/1404471613063-0.20107294246554375/tmp.tgz
+26 silly lockFile 58ed1661-3063-0-20107294246554375-tmp-tgz tar:///var/folders/6m/x4cvgf2x6qvc4fbcwhns1qhw0000gn/T/npm-1194-TgIi_5oF/1404471613063-0.20107294246554375/tmp.tgz
+27 silly lockFile 5748c184-nj-hulken-informant-express3-git https://github.com/hellgrenj/hulken_informant_express3.git
+28 silly lockFile 5748c184-nj-hulken-informant-express3-git https://github.com/hellgrenj/hulken_informant_express3.git
+29 error Error: ENOENT, open '/Users/hellgrenj/.npm/tmp_0b74b4470c55tmp_2d1719f21887package/package.json'
+30 error If you need help, you may report this *entire* log,
+30 error including the npm and node versions, at:
+30 error     <http://github.com/npm/npm/issues>
+31 error System Darwin 13.2.0
+32 error command "node" "/usr/local/bin/npm" "install" "https://github.com/hellgrenj/hulken_informant_express3.git"
+33 error cwd /UserRoot/Johan/MyProjects/hulken_informant_express3
+34 error node -v v0.10.28
+35 error npm -v 1.4.9
+36 error path /Users/hellgrenj/.npm/tmp_0b74b4470c55tmp_2d1719f21887package/package.json
+37 error code ENOENT
+38 error errno 34
+39 verbose exit [ 34, true ]
