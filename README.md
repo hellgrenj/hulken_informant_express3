@@ -1,7 +1,8 @@
 hulken_informant_express3
 =========================
 
-an informant for the stress test tool HULKEN (works with express3)
+an informant for the stress test tool HULKEN (works with express3).  
+this small module inspects your routes and generates a hulken requests file automatically.
 
 ##Installation
 `npm install hulken_informant_express3 --save`
