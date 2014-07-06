@@ -16,4 +16,4 @@ var app = express();
 var hulkentInformant = require('hulken_informant_express3');
  hulkenInformant.generateHulkenRequestsFile(‘./hulkenRequestsFile.json’, app);
 ```
-**tip:** do this after you start your http server
+
