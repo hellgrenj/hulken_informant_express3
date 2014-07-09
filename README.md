@@ -1,7 +1,7 @@
 hulken_informant_express3
 =========================
 
-an informant for the stress test tool HULKEN (works with express3).  
+an informant for the stress test tool [hulken](https://github.com/hellgrenj/hulken) (works with express3).  
 this small module inspects your routes and generates a hulken requests file automatically.
 
 ##Installation
@@ -16,4 +16,3 @@ var app = express();
 var hulkentInformant = require('hulken_informant_express3');
  hulkenInformant.generateHulkenRequestsFile(‘./hulkenRequestsFile.json’, app);
 ```
-
