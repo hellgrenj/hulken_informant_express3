@@ -1,7 +1,7 @@
 {
   "name": "hulken_informant_express3",
   "version": "0.1.1",
-  "description": "an informant for the stress test tool HULKEN (works with express3)",
+  "description": "an informant for the stress test tool hulken (works with express3)",
   "main": "hie3.js",
   "dependencies": {
     "colors": "^0.6.2"
