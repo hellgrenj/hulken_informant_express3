@@ -14,12 +14,19 @@ exports.generateHulkenRequestsFile = function(path, app) {
     }
     fs.writeFile(path, JSON.stringify(
       hulken_requests), function(err) {
-      if (err) throw err;
-      console.log(
-        'HulkenInformant created ' + path);
+      if (err) {
+        hulkenInformantFailed(err);
+      } else {
+        console.log(
+          'HulkenInformant created ' + path);
+      }
     });
   } catch (err) {
-    console.log('HulkenInformant failed: '.red + err.toString().red);
+    hulkenInformantFailed(err);
   }
 
 };
+
+function hulkenInformantFailed(err) {
+  console.log('HulkenInformant failed: '.red + err.toString().red);
+}
