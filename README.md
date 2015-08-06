@@ -17,7 +17,7 @@ var app = express();
 .
 .
 // do this after setting up your routes
-var hulkentInformant = require('hulken_informant_express3');
+var hulkenInformant = require('hulken_informant_express3');
  hulkenInformant.generateHulkenRequestsFile(‘./hulkenRequestsFile.json’, app);
 
 ```
